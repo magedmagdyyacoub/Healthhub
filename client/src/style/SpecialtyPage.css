@@ -1,0 +1,80 @@
+.specialty-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.specialty-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.doctor-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 1.5rem;
+}
+
+
+.doctor-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s;
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+}
+
+.doctor-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #34495e;
+}
+
+.doctor-role {
+  color: #7f8c8d;
+  margin-bottom: 1rem;
+}
+
+.schedule-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  color: #2980b9;
+}
+
+.schedule-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0.5rem;
+}
+
+.schedule-item {
+  background-color: #ecf0f1;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+.appointment-button {
+  background-color: #28a745;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.appointment-button:hover {
+  background-color: #218838;
+}

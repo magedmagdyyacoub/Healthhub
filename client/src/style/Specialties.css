@@ -1,0 +1,152 @@
+/* Specialties.css */
+
+/* === Page Container === */
+.specialties-page {
+  padding: 20px;
+  background-color: #f8fafc;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* === Title === */
+.page-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+/* === Form === */
+.specialty-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.specialty-form input {
+  padding: 8px 12px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.specialty-form button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.specialty-form button:hover {
+  background-color: #2980b9;
+}
+
+/* === Table Container === */
+.table-container {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+/* === Table === */
+.specialty-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.specialty-table th,
+.specialty-table td {
+  padding: 10px 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.specialty-table th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+}
+
+.specialty-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.specialty-table tr:hover {
+  background-color: #e9ecef;
+}
+
+/* === Action Buttons (Edit / Delete) === */
+.specialty-table td.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.specialty-table .btn-edit {
+  background-color: #ff9800;
+  color: white;
+}
+
+.specialty-table .btn-delete {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.specialty-table .btn-edit,
+.specialty-table .btn-delete {
+  padding: 6px 12px;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.specialty-table .btn-edit:hover,
+.specialty-table .btn-delete:hover {
+  opacity: 0.85;
+}
+
+/* === Pagination === */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  font-size: 13px;
+  background-color: #34495e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.pagination button:disabled {
+  background-color: #7f8c8d;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #2c3e50;
+}
+.specialty-table td.actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}

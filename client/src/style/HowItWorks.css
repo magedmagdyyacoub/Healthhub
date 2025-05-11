@@ -1,0 +1,48 @@
+/* تنسيق HowItWorks */
+.how-it-works {
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+  padding: 60px 20px;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 1200px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.how-it-works h2 {
+  font-size: 2rem;
+  color: #00796b;
+  margin-bottom: 20px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.step-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  width: 300px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+}
+
+.step-card h3 {
+  font-size: 1.5rem;
+  color: #00796b;
+  margin-bottom: 10px;
+}
+
+.step-card p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}

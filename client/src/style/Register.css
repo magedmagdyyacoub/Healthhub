@@ -1,0 +1,87 @@
+/* Register Page Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f0f4f7;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-container {
+  width: 100%;
+  max-width: 450px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #1cc88a;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #1cc88a;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #17a673;
+}
+
+button:active {
+  background-color: #139d5a;
+}
+
+.error-message {
+  color: #f44336;
+  margin: 10px 0;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: #777;
+}
+
+a {
+  color: #1cc88a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,74 @@
+/* Styling for the page */
+.specialties-page {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.page-title {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Table Styling */
+.table-container {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.specialty-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.specialty-table th, .specialty-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.specialty-table th {
+  background-color: #f2f2f2;
+}
+
+.specialty-table td select {
+  width: 100%;
+  padding: 5px;
+}
+
+/* Pagination Styles */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination {
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-item .page-link {
+  padding: 10px 15px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  color: #333;
+  font-size: 14px;
+}
+
+.page-item.active .page-link {
+  background-color: #007bff;
+  color: white;
+}
+
+.page-item .page-link:hover {
+  background-color: #ddd;
+}

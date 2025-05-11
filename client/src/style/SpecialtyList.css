@@ -1,0 +1,43 @@
+.specialty-container {
+  padding: 40px;
+  background: #f5f7fa;
+  text-align: center;
+}
+
+.specialty-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.specialty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 25px;
+  justify-items: center;
+  align-items: center;
+}
+
+.specialty-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  width: 100%;
+  max-width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.specialty-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.specialty-card h3 {
+  font-size: 1.25rem;
+  color: #007bff;
+  margin: 0;
+}

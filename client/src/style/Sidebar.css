@@ -1,0 +1,91 @@
+/* Sidebar.css */
+.sidebar {
+  height: 100%;
+  width: 250px;
+  background-color: #4CAF50;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 30px;
+  transition: all 0.3s ease;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin: 5px 0;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.sidebar-item:hover {
+  background-color: #093c24;
+  cursor: pointer;
+}
+
+.sidebar-item i {
+  margin-right: 10px;
+}
+
+/* Hover effects */
+.sidebar-item:hover i {
+  color: #ff5722;
+}
+
+.sidebar-item.active {
+  background-color: #ff5722;
+}
+
+/* Small screen (mobile view) */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .sidebar-header h2 {
+    font-size: 20px;
+  }
+
+  .sidebar-item {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
+
+/* Add dark mode support */
+body.dark-mode .sidebar {
+  background-color: #222;
+}
+
+body.dark-mode .sidebar-item {
+  color: #ccc;
+}
+
+body.dark-mode .sidebar-item:hover {
+  background-color: #444;
+}
+
+body.dark-mode .sidebar-item.active {
+  background-color: #ff5722;
+}
+
+body.dark-mode .sidebar-item i {
+  color: #ccc;
+}
